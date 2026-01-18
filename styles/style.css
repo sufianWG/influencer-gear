@@ -15,6 +15,7 @@
     --text-light-color: #ffffff;
     --text-gray-daark: #6C6C6C;
     --text-gray-50-color: #787885;
+    --dark-blue-color: #0A0826;
 }
 /* shared styles */
 .btn{
@@ -170,4 +171,71 @@ nav{
     color: #E02C6D;
     font-size: 1rem;
 
+}
+
+/* feature proudcts info section styles */
+.feature-products{
+    width: 87%;
+    max-width: 1200px;
+    margin: 6.25rem auto;
+    display: flex;
+    gap: 6rem;
+    align-items: center;
+}
+.feature-p-info h2{
+    font-size: 2.3rem;
+    font-weight: bold;
+    color: var(--primary-text-color);
+    margin-bottom: 1rem;
+}
+
+.feature-p-info p{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: var(--text-gray-daark);
+}
+
+ .feature-p-info button{
+    padding: 10px 24px;
+    color: var(--text-light-color);
+    background-color: var(--button-bg-color);
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.feature-p-info button a{
+    color:var(--text-light-color);
+    text-decoration: none;   
+}
+footer{
+    background-color: var(--dark-blue-color);
+    color: #ffffff;
+    padding: 3.125rem 0;
+}
+.footer-section{
+    text-align: center;
+    max-width: 16.37rem;
+    width: 100%;
+    margin: 0 auto;
+}
+.social-links ul{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.social-links ul li{
+    list-style: none;
+    background-color: rgba(46, 45, 45, 0.536);
+    width: 2rem;
+    height: 2rem;
+    padding: 0.46rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-links ul li a i{
+    color: var(--text-light-color)
 }
