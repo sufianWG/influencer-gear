@@ -60,7 +60,7 @@ nav{
     text-decoration: none;
     color: var(--primary-text-color);
     font-size: 1rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 /* hero section styles */
 .hero{
@@ -78,7 +78,6 @@ nav{
     background-repeat: no-repeat;
     background-position: center center;
     background-size: contain;
-
 }
 .hero-image img{
     width: 100%;
@@ -94,4 +93,81 @@ nav{
     font-size: 1rem;
     color: var(--primary-text-color);
     margin-bottom: 1rem;
+}
+/* sites logos styles */
+.popular-section{
+     
+}
+.popular-on-items{
+    border-top: 1px solid var(--text-gray-color);
+    border-bottom: 1px solid var(--text-gray-color);
+    width: 87%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2.18rem 3.87rem; 
+    gap: 3.8rem; 
+}
+.popular-on-items img{
+    width: 100%;
+    max-width: 5.25rem;
+}
+
+/* products section styles */
+.popular-collection{
+    width: 87%;
+    max-width: 1200px;
+    margin: 6.25rem auto;
+    text-align: center;
+}
+.product-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.87rem;
+}
+.popular-collection h2{
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 1.87rem;
+}
+.product-card{
+    width: 100%;
+    /* max-width: 329px; */
+    box-shadow: 0px 0px 40px 0 rgba(0, 0, 0, .1);
+    padding: 0.87rem;
+    text-align: left;
+    border: none;
+    border-radius: 5px;
+}
+.product-card .product-title{
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--primary-text-color);
+    margin-top: 1rem;
+    margin-bottom: 6px;
+}
+.product-card .price{
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: var(--primary-text-color);
+}
+.product-card p{
+    font-size: 0.87rem;
+    color: var(--text-gray-50-color);
+    font-weight: bold;
+}
+.product-card img{
+    width: 100%;
+}
+.more-products{
+    text-align: right;
+    margin-top: 3.123rem;
+}
+.more-products a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 1rem;
+
 }
